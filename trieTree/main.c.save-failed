@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include "trieTree.h"
+#include "ListaEstatica.h"
+
+int main()
+{
+    td_trieNode *tree = CreateTrieNode();
+    int *index = (int*) malloc (sizeof(int));
+    char word[TAM_VETOR];
+
+    *index = 1;
+
+    gets(word);
+    printf("WORD: %s\n", word);
+    InsertNewWord(tree, word, index);
+
+    index = (int*) malloc (sizeof(int));
+    *index = 2;
+
+    printf("WORD: %s\n", word);
+    gets(word);
+    InsertNewWord(tree, word, index);
+    ShowAllWords(tree, word);
+    return 0;
+}

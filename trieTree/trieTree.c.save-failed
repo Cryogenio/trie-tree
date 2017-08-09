@@ -1,0 +1,92 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include "trieTree.h"
+#include "ListaEstatica.h"
+
+int GetIndex(char value){
+    return ((int)value - (int)'a');
+}
+
+td_trieNode* CreateTrieNode(){
+    td_trieNode *node = (td_trieNode*) calloc (1, sizeof(td_trieNode));
+    node->Li = CriaLista();
+    if(node)
+        return node;
+
+    return NULL;
+}
+
+void InsertNewWord (td_trieNode *tree, char *word, int *index){
+    int i, atualIndex;
+    td_trieNode *node = tree;
+
+    for(i=0; word[i]!='\0'; i++){
+        atualIndex = GetIndex(word[i]);
+        if( !node->children[atualIndex] ){
+            node->children[atualIndex] = CreateTrieNode();
+            node->children[atualIndex]->parent = node;
+        }
+        node = node->children[atualIndex];
+    }
+    InsereFim(node->Li, index);
+}
+
+td_trieNode* SearchWord (td_trieNode *tree, char *word){
+    int i, atualIndex;
+
+    for(i=0; word[i]!='\0'; i++){
+        atualIndex = GetIndex(word[i]);
+        if( tree->children[atualIndex] ){
+            tree = tree->children[atualIndex];
+        }else
+            break;
+    }
+    if(word[i] == '\0' && tree->Li->qtdElementos != 0)
+        return tree;
+
+    return NULL;
+}
+
+void ShowAllWords (td_trieNode *tree, char *word){
+    int i, k = SIZEVEC(word);
+    bool noKids = true;
+
+    if(tree->Li->qtdElementos != 0){
+        for(i=0; i<; i++){
+
+        }
+        char vec[TAM_VETOR] = word[0];
+        for(i=0; word[i]!='\0'; i++){
+            printf("%c\n", word[i]);
+        }
+    }
+    for(i=0; i<ALPHABET_SIZE; i++){
+        if(tree->children[i]){
+            ShowAllWords(tree->children[i], word);
+            k--;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

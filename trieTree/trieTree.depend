@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1496803560 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+	"ListaEstatica.h"
+
+1496801270 c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietree\trietree.h
+
+1496803316 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietree\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1496802466 c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietree\listaestatica.h
+
+1496803541 source:c:\users\giordano berwanger\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietree\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+	"ListaEstatica.h"
+
+1497006769 source:c:\users\aluno\desktop\trietree\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1497006769 c:\users\aluno\desktop\trietree\listaestatica.h
+
+1497034494 source:c:\users\aluno\desktop\trietree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+
+1497034005 c:\users\aluno\desktop\trietree\trietree.h
+
+1497034412 source:c:\users\aluno\desktop\trietree\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+
+1496940810 source:c:\users\giordano\desktop\trietree\listaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	"ListaEstatica.h"
+
+1496940810 c:\users\giordano\desktop\trietree\listaestatica.h
+
+1496976746 source:c:\users\giordano\desktop\trietree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+
+1496975007 c:\users\giordano\desktop\trietree\trietree.h
+
+1496976792 source:c:\users\giordano\desktop\trietree\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+
+1497728672 source:c:\users\giordano\desktop\trietreefull-20170609t215823z-001\trietreefull\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
+1497734371 c:\users\giordano\desktop\trietreefull-20170609t215823z-001\trietreefull\trietree.h
+
+1497729777 source:c:\users\giordano\desktop\trietreefull-20170609t215823z-001\trietreefull\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"trieTree.h"
+
+1497796368 source:c:\users\giordano\desktop\trietreefull\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
+1497735064 c:\users\giordano\desktop\trietreefull\trietree.h
+
+1497735499 source:c:\users\giordano\desktop\trietreefull\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
+1497888495 source:c:\users\aluno\desktop\trietreefull\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
+1497888134 c:\users\aluno\desktop\trietreefull\trietree.h
+
+1497880693 source:c:\users\aluno\desktop\trietreefull\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
+1497892588 source:x:\trietreefull\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	<conio.h>
+	"trieTree.h"
+
+1497892501 x:\trietreefull\trietree.h
+
+1497880693 source:x:\trietreefull\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
+1497917074 source:c:\users\giord\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietreepronta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	<conio.h>
+	"trieTree.h"
+
+1497917029 c:\users\giord\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietreepronta\trietree.h
+
+1497922149 source:c:\users\giord\google drive\utfpr\terceiro período\pesquisa e ordenação de dados\aps\trietreepronta\trietree.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<strings.h>
+	"trieTree.h"
+
